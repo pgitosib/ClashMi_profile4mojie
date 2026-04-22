@@ -1,0 +1,7 @@
+tun:
+  loopback-address:
+    - 10.7.0.1
+
+rules:
+  - DOMAIN-SUFFIX,apple.com,苹果服务
+  - MATCH,DIRECT
